@@ -1,0 +1,51 @@
+@media(max-width: 1000px){    
+    
+    .main-menu li{        
+        margin-left: -100%;
+        
+    }
+
+    #btn_menu:checked ~.main-menu li{
+        margin-left: 0;
+        display: block;        
+        padding: 10px;
+        transition: .4s;
+    }
+
+    #btn_menu:checked ~ .main-menu a{
+        border-radius: 0px;
+    }
+
+    #btn_menu:checked ~ label[for="btn_menu"]{
+        margin-left: 130px;
+        transition: .4s;
+
+    }
+
+    label[for="btn_menu"]{
+        display: block;
+    }   
+    
+    #nome{
+        padding: 20px 130px; 
+    }
+
+}
+
+@media(max-width: 930px){
+
+    #foto-curriculo{
+        display: block;
+        width: 100px;
+        margin-right: 30px;
+    }
+
+}
+
+@media(max-width: 510px){
+
+    #nome{
+        display: none;
+    }
+
+}
