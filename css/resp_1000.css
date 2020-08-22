@@ -48,4 +48,14 @@
         display: none;
     }
 
+    #foto-curriculo{
+        display: block;
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    #nome-body{
+        display: block;
+    }
+
 }

@@ -1,6 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container{
-    margin: 0 auto;
-	
+    margin: 0 auto;	
 }
 
 header{
@@ -48,20 +51,17 @@ header{
 }
 
 #nome{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
     padding: 60px 130px;
-    position: relative;
-    /*width: 100%;*/
+    position: relative;    
 }
 
-#nome h1{
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+#nome h1{    
     font-size: 50px;
 }
 
-#nome p{    
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+#nome p{        
     text-align: left;
     margin-left: 510px;
 }
@@ -85,6 +85,20 @@ label[for="btn_menu"]{
     width: 30px;
     height: 30px;
     display: none;
+}
+
+#nome-body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    padding: 60px;
+    text-align: center;
+    display: none; 
+}
+
+#nome-body h1{        
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;    
 }
 
 @media(max-width: 1330px){   
