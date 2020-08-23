@@ -19,9 +19,11 @@
     #btn_menu:checked ~ label[for="btn_menu"]{
         margin-left: 130px;
         transition: .4s;
-        color: #000;
-        background-image: url(../img/close.svg);
-        background-position: center;
+        color: #fff;
+        border-radius: 100%;
+        background-image: url(../img/close.png);
+        background-size: auto;
+        background-size: contain;
 
     }
 
